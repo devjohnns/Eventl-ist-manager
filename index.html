@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guest List Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="1746386538081.png">
+    
+</head>
+<body style="background-image: url(1746386538081.jpg);">
+    <div class="container">
+        <h1>Guest List Manager</h1>
+        <form id="guest-form">
+            <input type="text" id="guest-name" placeholder="Enter guest name" required>
+            <select id="guest-category">
+                <option value="Friend">Friend</option>
+                <option value="Family">Family</option>
+                <option value="Colleague">Colleague</option>
+            </select>
+            <button type="submit">Add Guest</button>
+        </form>
+
+        <!-- Guest List Table -->
+        <table style="background-color: lightseagreen;" id="guest-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>RSVP Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="guest-list"></tbody>
+        </table>
+    </div>
+
+<script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: center;
+    max-height: 1000px;
+    padding: 100px;
+    background-color: lightcoral;
+    border: 10px beige solid;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    background-color: yellow;
+}
+
+input, select, button {
+    padding: 30px;
+    font-size: 26px;
+}
+
+input {
+    flex: 4;
+}
+
+select, button {
+    flex: 2;
+}
+
+/* Guest List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    border-left: 5px solid gray;
+    border-radius: 5px;
+}
+
+/* Category colors */
+.friend { border-left-color:pink; }
+.family { border-left-color: green; }
+.colleague { border-left-color: purple; }
+
+/* RSVP colors */
+.attending { color: green; font-weight: bold; }
+.not-attending { color: red; font-weight: bold; }
+
+/* Buttons */
+button {
+    border: red;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+/* Submit Button */
+#submit-btn {
+    background-color: green;
+    color: red;
+    border-radius: 5px;
+    border: none;
+}
+
+#submit-btn:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.attending { color: green; font-weight: bold; }
+.not-attending { color: red; font-weight: bold; }
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
